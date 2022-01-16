@@ -2,7 +2,6 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-width: 100vw;
 font-family: 'Times New Roman', Times, serif
 ;
 }
@@ -15,8 +14,8 @@ footer {
 }
 
 .menu {
-
-
+    display: flex;
+    justify-content: space-around;
 }
 
 .m1 {
@@ -24,7 +23,23 @@ footer {
     font-size: bold;
 }
 
+
 ul {
     list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px
+    
+}
 
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
 }
