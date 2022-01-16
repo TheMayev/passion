@@ -1,0 +1,30 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+width: 100vw;
+font-family: 'Times New Roman', Times, serif
+;
+}
+
+header, 
+footer {
+    background-color: #1f2937;
+    color: white;
+    
+}
+
+.menu {
+
+
+}
+
+.m1 {
+    font-size: 24px;
+    font-size: bold;
+}
+
+ul {
+    list-style-type: none;
+
+}
