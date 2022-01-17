@@ -99,8 +99,7 @@ h1 {
 .container {
     display: flex;
     flex-direction: column;
-    
-    
+     
 }
 
 h2 {
@@ -168,16 +167,19 @@ h3 > a:hover {
 .contact {
     display: flex;
     background-color: #3882F6;
-    margin: 50px 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 450px;
+    margin-left: 450px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
     justify-content: space-around;
     align-items: center;
     color: white;
+   
 }
-
 
 
 h4 {
@@ -193,6 +195,7 @@ h4 {
 
 .two > .be {
     border: 2px solid white;
+    
    
 }
 
