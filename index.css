@@ -99,8 +99,9 @@ h1 {
 .container {
     display: flex;
     flex-direction: column;
-     
+    align-items: center;
 }
+
 
 h2 {
     text-align: center;
@@ -145,6 +146,7 @@ h3 > a:hover {
     padding: 50px 300px;
     display: flex;
     justify-content: center;
+    width: 100%;
     
 }
 .q1 {
@@ -169,8 +171,8 @@ h3 > a:hover {
     background-color: #3882F6;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-right: 200px;
+    margin-left: 200px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 100px;
@@ -178,8 +180,13 @@ h3 > a:hover {
     justify-content: space-around;
     align-items: center;
     color: white;
+    gap: 50px;
+    width: 500px;
+    height: auto;
    
 }
+
+
 
 
 h4 {
